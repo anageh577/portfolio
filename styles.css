@@ -279,6 +279,7 @@ header {
 }
 
 menu {
+    z-index: 999999999999999999;
     background: transparent;
     padding: 10px 0;
     top: 0;
