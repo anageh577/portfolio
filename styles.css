@@ -279,7 +279,7 @@ header {
 }
 
 menu {
-    z-index: 999999999999999999;
+    z-index: 999999999999999999 !important;
     background: transparent;
     padding: 10px 0;
     top: 0;
@@ -1081,6 +1081,26 @@ footer .right i:hover {
 }
 .skills__html {
     width: 95%;
+}
+.bootstrap_bar{
+    width: 100% !important;
+}
+.jquery{
+    width: 75% !important;
+}
+.es6{
+    width: 90% !important;
+}
+.oop{
+    width:100% !important;
+}
+.algo{
+    width: 50%;
+}
+.ionic{width: 90% !important;}
+.javascript{width: 90%;}
+.rxjs{
+    width: 75%;
 }
 .skills__css {
     width: 85%;
