@@ -1,8 +1,11 @@
 .text-center {
     text-align: center;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 .card {
-    height: 131px;
+    min-height: 143px;
     overflow: hidden;
     position: relative;
     display: -ms-flexbox;
@@ -724,7 +727,7 @@ menu nav li a {
 .contact .left .socialIcons {
     margin-top: 16px;
 }
-.fa-linkedin{
+.fa-linkedin {
     color: #0a66c2;
 }
 
@@ -1084,24 +1087,28 @@ footer .right i:hover {
 .skills__html {
     width: 95%;
 }
-.bootstrap_bar{
+.bootstrap_bar {
     width: 100% !important;
 }
-.jquery{
+.jquery {
     width: 75% !important;
 }
-.es6{
+.es6 {
     width: 90% !important;
 }
-.oop{
-    width:100% !important;
+.oop {
+    width: 100% !important;
 }
-.algo{
+.algo {
     width: 50%;
 }
-.ionic{width: 90% !important;}
-.javascript{width: 90%;}
-.rxjs{
+.ionic {
+    width: 90% !important;
+}
+.javascript {
+    width: 90%;
+}
+.rxjs {
     width: 75%;
 }
 .skills__css {
@@ -1235,15 +1242,27 @@ footer .right i:hover {
 h1 {
     font-family: audio_wide;
 }
-a , p , button,div {
+a,
+p,
+button,
+div {
     font-family: lexend !important;
 }
 
-.current{
+.current {
     color: #feb633 !important;
     border-bottom: 1px solid #feb633 !important;
 }
 
-body{
+body {
     overflow-x: hidden;
+}
+
+.centereed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colorblack{
+    color: black;
 }
