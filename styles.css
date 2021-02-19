@@ -722,13 +722,15 @@ menu nav li a {
 }
 
 .contact .left .socialIcons {
-    margin-top: 50px;
+    margin-top: 16px;
+}
+.fa-linkedin{
+    color: #0a66c2;
 }
 
 .contact .socialIcons i {
     font-size: 20px;
     margin-right: 10px;
-    color: #464646;
 }
 
 .contact .right {
@@ -1235,4 +1237,13 @@ h1 {
 }
 a , p , button,div {
     font-family: lexend !important;
+}
+
+.current{
+    color: #feb633 !important;
+    border-bottom: 1px solid #feb633 !important;
+}
+
+body{
+    overflow-x: hidden;
 }
