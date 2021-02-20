@@ -25,10 +25,14 @@ function filterSelection(c) {
   }
   var x, i;
   x = document.getElementsByClassName("project");
-  if (c == "all") { c = ""; }
+  if (c == "all") {
+    console.log(''); c = "";
+  }
   for (i = 0; i < x.length; i++) {
     removeClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) {
+      addClass(x[i], "show")
+    };
   }
 }
 
@@ -38,7 +42,9 @@ function addClass(element, name) {
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
   }
 }
 
