@@ -498,7 +498,7 @@ menu nav li a {
     grid-gap: 30px;
     box-sizing: border-box;
     margin-top: 50px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: start;
 }
 
@@ -528,11 +528,11 @@ menu nav li a {
 .portfolio .overlay {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 65px;
     right: 0;
     background-color: rgba(254, 182, 51, 0.8);
     overflow: hidden;
-    width: 100%;
+    width: 66%;
     height: 100%;
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
@@ -1265,4 +1265,50 @@ body {
 }
 .colorblack{
     color: black;
+}
+
+
+/* projects backround */
+.bk{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+}
+.babygarage{
+    background-image: url(images/Group\ 768.png);
+}
+.kriss{
+    background-image: url(images/kriss.jpg);
+}
+.nada{
+    background-image: url(images/download.png);
+}
+.your{
+    background-image: url(images/your.png);
+}
+.trade{
+    background-image: url(images/trade.png);
+}
+.one{
+    background-image: url(images/one.webp);
+}
+.swa{
+    background-image: url(images/swa.png);
+}
+.egy{
+    background-image: url(images/egy.png);
+}
+/* .bk::after{
+    width: 100px;
+    height: 10px;
+    content: "";
+    background-color: red;
+} */
+
+.cenerrr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
