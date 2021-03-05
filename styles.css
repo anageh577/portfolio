@@ -1269,6 +1269,11 @@ body {
 
 
 /* projects backround */
+.vh-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bk{
     background-size: cover;
     background-position: center;
