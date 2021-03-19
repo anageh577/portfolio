@@ -11,16 +11,16 @@ filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
     if (c == 'all') {
         document.getElementById('all').classList.add('current')
-        document.getElementById('webdesign').classList.remove('current')
-        document.getElementById('webdev').classList.remove('current')
-    } else if (c == 'webdesign') {
+        document.getElementById('team').classList.remove('current')
+        document.getElementById('solo').classList.remove('current')
+    } else if (c == 'team') {
         document.getElementById('all').classList.remove('current')
-        document.getElementById('webdesign').classList.add('current')
-        document.getElementById('webdev').classList.remove('current')
-    } else if (c == 'webdev') {
+        document.getElementById('team').classList.add('current')
+        document.getElementById('solo').classList.remove('current')
+    } else if (c == 'solo') {
         document.getElementById('all').classList.remove('current')
-        document.getElementById('webdesign').classList.remove('current')
-        document.getElementById('webdev').classList.add('current')
+        document.getElementById('team').classList.remove('current')
+        document.getElementById('solo').classList.add('current')
     }
     var x, i;
     x = document.getElementsByClassName("project");
@@ -36,16 +36,16 @@ function filterSelection(c) {
 function activeTab(tab) {
     if (tab == 'all') {
         document.getElementById('all').classList.add('current')
-        document.getElementById('webdesign').classList.remove('current')
-        document.getElementById('webdev').classList.remove('current')
-    } else if (tab == 'webdesign') {
+        document.getElementById('team').classList.remove('current')
+        document.getElementById('solo').classList.remove('current')
+    } else if (tab == 'team') {
         document.getElementById('all').classList.remove('current')
-        document.getElementById('webdesign').classList.add('current')
-        document.getElementById('webdev').classList.remove('current')
-    } else if (tab == 'webdev') {
+        document.getElementById('team').classList.add('current')
+        document.getElementById('solo').classList.remove('current')
+    } else if (tab == 'solo') {
         document.getElementById('all').classList.remove('current')
-        document.getElementById('webdesign').classList.remove('current')
-        document.getElementById('webdev').classList.add('current')
+        document.getElementById('team').classList.remove('current')
+        document.getElementById('solo').classList.add('current')
     }
 }
 // Show filtered elements
