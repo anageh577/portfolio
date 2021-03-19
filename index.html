@@ -2,12 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b0cd25bb74.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap-grid.css">
 
     <title>Responsive Portfolio</title>
@@ -53,8 +50,7 @@
                 <h1>About Me</h1>
             </div>
             <div class="right">
-                <p>Computer science graduated experienced Front-end developer
-                    for developing websites and mobile applications</p>
+                <p>Computer science graduated experienced Front-end developer for developing websites and mobile applications</p>
 
                 <button class="btnLeft">View Works</button>
                 <button class="btnRight">Download CV</button>
@@ -71,8 +67,7 @@
                 <div class="col-sm-6 mb-20">
                     <div class="card">
                         <div class="card-body">
-                            Worked at bit68 software house as jonior front-end from February
-                            2019 to June 2020
+                            Worked at bit68 software house as jonior front-end from February 2019 to June 2020
                         </div>
                     </div>
                 </div>
@@ -80,24 +75,12 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            Designed, implemented and monitored web pages andsites for
-                            continuous improvement used various technologies, mainly Angular &
-                            Ionic frameworks to make code repairs and optimize websited and
-                            mobile apps.
+                            Designed, implemented and monitored web pages andsites for continuous improvement used various technologies, mainly Angular & Ionic frameworks to make code repairs and optimize websited and mobile apps.
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="right">
-                <ul>
-                    <li>Worked at bit68 software house as jonior front-end from February
-                        2019 to June 2020</li>
-                        <li>Designed, implemented and monitored web pages andsites for
-                            continuous improvement used various technologies, mainly Angular &
-                            Ionic frameworks to make code repairs and optimize websited and
-                            mobile apps.</li>
-                </ul>
-            </div> -->
+
         </div>
     </section>
 
@@ -117,13 +100,13 @@
                         placeat expedita!</p>
                 </div>
                 <div class="box box2" data-aos="fade-left" data-aos-delay="400">
-                    <img src="images/webdev.png" alt="services">
+                    <img src="images/team.png" alt="services">
                     <h3>Web Development</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error inventore quo ipsam nesciunt
                         placeat expedita!</p>
                 </div>
                 <div class="box box3" data-aos="fade-right">
-                    <img src="images/webdesign.png" alt="services">
+                    <img src="images/solo.png" alt="services">
                     <h3>Web Design</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error inventore quo ipsam nesciunt
                         placeat expedita!</p>
@@ -144,7 +127,6 @@
                 <div class="col-md-6">
                     <div class="skills__data">
                         <div class="skills__names">
-                            <!-- <i class='bx bxl-html5 skills__icon'></i> -->
                             <span class="skills__name">HTML5</span>
                         </div>
                         <div class="skills__bar skills__html">
@@ -320,122 +302,129 @@
 
             <div id="btnWrapper">
                 <button id="all" class="btn active current" onclick="filterSelection('all')">All</button>
-                <button id="solo" class="btn" onclick="filterSelection('webdesign')">Solo</button>
-                <button id="team" class="btn" onclick="filterSelection('webdev')">Team</button>
+                <button id="solo" class="btn" onclick="filterSelection('solo')">Solo</button>
+                <button id="team" class="btn" onclick="filterSelection('team')">Team</button>
 
             </div>
 
             <!-- Portfolio Gallery Grid -->
-            <div class="row" style="margin-top: 50px;">
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project2 webdesign bk " data-toggle="tooltip" data-placement="left"
-                        title="Tooltip on left">
-                        <img src="images/Group 768.png" alt="Lights" style="width: 127px;margin: auto;">
-                        <a href="https://play.google.com/store/apps/details?id=com.bit68.babygarage" target="_blank">
-                            <div class="overlay">
-                                <div class="text">
-                                    <p>
-                                        Back-end integrated
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
 
+
+            <div class="all_pro">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project2 solo bk " data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+                            <img src="images/Group 768.png" alt="Lights" style="width: 127px;margin: auto;">
+                            <a href="https://play.google.com/store/apps/details?id=com.bit68.babygarage" target="_blank">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>
+                                            Back-end integrated
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project2 solo bk ">
+                            <img src="images/kriss.jpg" alt="Lights">
+                            <a href="http://www.mediafire.com/error.php?errno=320&origin=download" target="_blank">
+                                <div class="overlay">
+                                    <div class="text">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project2 solo bk ">
+                            <img src="images/kriss.jpg" alt="Lights">
+                            <a href="https://www.krissbeautysalons.com/#/" target="_blank">
+                                <div class="overlay">
+                                    <div class="text">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project2 webdesign bk ">
-                        <img src="images/kriss.jpg" alt="Lights">
-                        <a href="http://www.mediafire.com/error.php?errno=320&origin=download" target="_blank">
+
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project4 solo bk ">
+                            <img src="images/download.png" alt="Car">
+
+                            <a href="http://www.mediafire.com/error.php?errno=320&origin=download" target="_blank">
+                                <div class="overlay">
+                                    <div class="text">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project5 team   bk">
+                            <img src="images/your.png" alt="Car">
                             <div class="overlay">
                                 <div class="text">
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 cenerrr">
+
+                        <div class="project vh-center project6 team bk " style="background-color: black;">
+                            <img src="images/trade.png" alt="Car">
+                            <div class="overlay">
+                                <div class="text">
+
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project2 webdesign bk ">
-                        <img src="images/kriss.jpg" alt="Lights">
-                        <a href="https://www.krissbeautysalons.com/#/" target="_blank">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project7 team  bk">
+                            <img src="images/one.webp" alt="Car">
+                            <div class="overlay">
+                                <div class="text">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 cenerrr">
+
+                        <div class="project vh-center project7 team bk ">
+                            <img src="images/swa.png" alt="Car">
+                            <div class="overlay">
+                                <div class="text">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 cenerrr">
+                        <div class="project vh-center project7 team bk ">
+                            <img src="images/egy.png" alt="Car">
                             <div class="overlay">
                                 <div class="text">
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 50px;">
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project4 webdesign bk ">
-                        <img src="images/download.png" alt="Car">
 
-                        <a href="http://www.mediafire.com/error.php?errno=320&origin=download" target="_blank">
-                            <div class="overlay">
-                                <div class="text">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project5 webdev   bk">
-                        <img src="images/your.png" alt="Car">
-                        <div class="overlay">
-                            <div class="text">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 cenerrr">
-
-                    <div class="project vh-center project6 webdev bk " style="background-color: black;">
-                        <img src="images/trade.png" alt="Car">
-                        <div class="overlay">
-                            <div class="text">
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 50px;">
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project7 webdev  bk">
-                        <img src="images/one.webp" alt="Car">
-                        <div class="overlay">
-                            <div class="text">
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 cenerrr">
-
-                    <div class="project vh-center project7 webdev bk ">
-                        <img src="images/swa.png" alt="Car">
-                        <div class="overlay">
-                            <div class="text">
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 cenerrr">
-                    <div class="project vh-center project7 webdev egy ">
-                        <img src="images/egy.png" alt="Car">
-                        <div class="overlay">
-                            <div class="text">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="solo_pro"></div>
+            <div class="team_pro"></div>
 
 
 
@@ -444,48 +433,6 @@
 
 
 
-
-            <!-- END GRID -->
-
-            <div class="row">
-                <div id="myModal" class="modal">
-                    <span class="close cursor" onclick="closeModal()">&times;</span>
-                    <div class="modal-content">
-
-                        <div class="mySlides">
-                            <img src="images/modal1.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal2.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal3.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal4.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal5.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal6.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal7.jpg">
-                        </div>
-                        <div class="mySlides">
-                            <img src="images/modal8.jpg">
-                        </div>
-
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                        <div class="caption-container">
-                            <p id="caption"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </section>
 
     <!-- WORKWITHME -->
@@ -493,8 +440,8 @@
         <div class="container grid">
             <div class="left">
                 <h3>Work With Me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat soluta, repellat error laborum
-                    sunt?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat soluta, repellat error laborum sunt?
+                </p>
             </div>
             <div class="right">
                 <button>Get Started</button>

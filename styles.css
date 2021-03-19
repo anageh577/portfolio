@@ -530,7 +530,7 @@ menu nav li a {
     top: 0;
     left: 65px;
     right: 0;
-    background-color: rgba(254, 182, 51, 0.8);
+    background-color: rgba(46, 45, 43, 0.8);
     overflow: hidden;
     width: 66%;
     height: 100%;
@@ -546,6 +546,9 @@ menu nav li a {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+}
+.project:hover{
+    opacity: 0.8;
 }
 
 .project .overlay img {
