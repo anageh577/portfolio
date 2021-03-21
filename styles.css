@@ -671,6 +671,12 @@ menu nav li a {
     width: 600px;
 }
 
+.trade {
+    background-color: black;
+    padding: 10px;
+    border-radius: 11px;
+}
+
 
 /* Next & previous buttons */
 
