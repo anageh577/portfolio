@@ -307,12 +307,12 @@ h3 {
 
 /* === HEADER === */
 
-header {
+.headd {
     width: 100%;
     overflow: hidden;
 }
 
-menu {
+.men {
     z-index: 999999999999999999 !important;
     background: transparent;
     padding: 10px 0;
@@ -326,14 +326,14 @@ menu {
     z-index: 99;
 }
 
-menu.scrolled {
+.men.scrolled {
     background: #fff;
     -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-menu a img {
+.men a img {
     width: 100px;
 }
 
@@ -342,17 +342,17 @@ label {
     display: none;
 }
 
-menu nav ul {
+.men nav ul {
     list-style: none;
     padding-left: 0;
 }
 
-menu nav li {
+.men nav li {
     display: inline-block;
     padding-left: 25px;
 }
 
-menu nav li a {
+.men nav li a {
     color: #161616;
 }
 
@@ -671,7 +671,7 @@ menu nav li a {
     width: 600px;
 }
 
-.trade {
+.tradee {
     background-color: black;
     padding: 10px;
     border-radius: 11px;
@@ -969,11 +969,11 @@ footer .right i:hover {
         justify-content: center;
     }
     /* MENU */
-    menu {
+    .men {
         width: 100%;
         position: fixed;
     }
-    menu label {
+    .men label {
         display: block;
         cursor: pointer;
         font-size: 30px;
@@ -999,11 +999,11 @@ footer .right i:hover {
         position: fixed;
         z-index: 5;
     }
-    menu nav ul {
+    .menu nav ul {
         padding-left: 0;
         margin-left: 0;
     }
-    menu nav li {
+    .menu nav li {
         display: block;
         font-size: 20px;
         margin: 30px 0;
@@ -1352,7 +1352,7 @@ body {
 }
 
 .bk {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
@@ -1377,6 +1377,11 @@ body {
 
 .trade {
     background-image: url(images/trade.png);
+    background-color: black;
+    height: 88px;
+    background-size: 93% 71%;
+    width: 279px;
+    border-radius: 6px;
 }
 
 .one {
