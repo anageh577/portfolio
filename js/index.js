@@ -21,21 +21,22 @@ navOpen.addEventListener("click", () => {
 // Fix Navbar
 const navBar = document.querySelector(".navigation");
 const topLink = document.querySelector(".goto-top");
-// window.addEventListener("scroll", () => {
-//   const navHeight = navBar.getBoundingClientRect().height;
-//   const scrollHeight = window.pageYOffset;
-//   if (scrollHeight > navHeight) {
-//     navBar.classList.add("fix-nav");
-//   } else {
-//     navBar.classList.remove("fix-nav");
-//   }
+window.addEventListener("scroll", () => {
 
-//   // if (scrollHeight > 500) {
-//   //   topLink.classList.add("show");
-//   // } else {
-//   //   topLink.classList.remove("show");
-//   // }
-// });
+    const navHeight = navBar.getBoundingClientRect().height;
+    const scrollHeight = window.pageYOffset;
+    if (scrollHeight > navHeight) {
+        navBar.classList.add("fix-nav");
+    } else {
+        navBar.classList.remove("fix-nav");
+    }
+
+    if (scrollHeight > 500) {
+        topLink.classList.add("show");
+    } else {
+        topLink.classList.remove("show");
+    }
+});
 
 // Smooth Scroll
 const links = document.querySelectorAll(".scroll-link");
