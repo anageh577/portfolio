@@ -19,7 +19,7 @@ navOpen.addEventListener("click", () => {
 });
 
 // Fix Navbar
-const navBar = document.querySelector(".navigation");
+const navBar = document.querySelector(".nav");
 const topLink = document.querySelector(".goto-top");
 window.addEventListener("scroll", () => {
 
