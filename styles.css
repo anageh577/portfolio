@@ -669,8 +669,8 @@ img {
 .glide__arrow {
     position: absolute;
     top: 0;
-    opacity: 0;
-    visibility: hidden;
+    /* opacity: 0; */
+    /* visibility: hidden; */
     border: 1px solid var(--primaryColor);
     background-color: var(--primaryColor);
     transition: all 300ms;
