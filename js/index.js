@@ -20,7 +20,7 @@ navOpen.addEventListener("click", () => {
 
 // Fix Navbar
 const navBar = document.querySelector(".nav");
-const topLink = document.querySelector(".goto-top");
+// const topLink = document.querySelector(".goto-top");
 window.addEventListener("scroll", () => {
 
     const navHeight = navBar.getBoundingClientRect().height;
@@ -31,11 +31,11 @@ window.addEventListener("scroll", () => {
         navBar.classList.remove("fix-nav");
     }
 
-    if (scrollHeight > 500) {
-        topLink.classList.add("show");
-    } else {
-        topLink.classList.remove("show");
-    }
+    // if (scrollHeight > 500) {
+    //     topLink.classList.add("show");
+    // } else {
+    //     topLink.classList.remove("show");
+    // }
 });
 
 // Smooth Scroll
